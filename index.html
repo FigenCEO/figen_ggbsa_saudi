@@ -29,12 +29,12 @@
         /* Header */
         header {
             background: var(--navy);
-            padding: 1rem 5%;
+            padding: 1.2rem 5%;
             position: fixed;
             width: 100%;
             top: 0;
             z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         }
         
         .header-content {
@@ -56,7 +56,7 @@
         }
         
         .logo img {
-            height: 62.5px;
+            height: 80px;
             width: auto;
         }
         
@@ -75,6 +75,7 @@
             text-decoration: none;
             transition: color 0.3s;
             font-weight: 500;
+            font-size: 1.05rem;
         }
         
         nav a:hover {
@@ -90,9 +91,9 @@
         }
         
         .hero h1 {
-            font-size: 3.5rem;
+            font-size: 4rem;
             margin-bottom: 1rem;
-            font-weight: 300;
+            font-weight: 400;
             letter-spacing: 2px;
         }
         
@@ -124,11 +125,13 @@
         
         .section-title {
             text-align: center;
-            font-size: 2.5rem;
+            font-size: 3rem;
             margin-bottom: 3rem;
             color: var(--navy);
             position: relative;
-            padding-bottom: 1rem;
+            padding-bottom: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 1px;
         }
         
         .section-title::after {
@@ -137,9 +140,10 @@
             bottom: 0;
             left: 50%;
             transform: translateX(-50%);
-            width: 100px;
-            height: 3px;
+            width: 120px;
+            height: 4px;
             background: var(--gold);
+            box-shadow: 0 2px 8px rgba(201, 169, 97, 0.4);
         }
         
         .services-grid {
