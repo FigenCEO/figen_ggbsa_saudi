@@ -221,6 +221,120 @@
             font-size: 1.8rem;
         }
         
+        /* Figen Section */
+        .figen {
+            padding: 80px 5%;
+            background: var(--light-gray);
+        }
+        
+        .figen-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .figen-content {
+            background: var(--white);
+            border-radius: 15px;
+            padding: 3rem;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        .figen-intro {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid var(--light-gray);
+        }
+        
+        .figen-intro h3 {
+            font-size: 2.5rem;
+            color: var(--navy);
+            margin-bottom: 0.5rem;
+        }
+        
+        .figen-title {
+            color: var(--gold);
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+        
+        .figen-description {
+            color: #666;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .figen-highlights {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .highlight-card {
+            background: var(--light-gray);
+            padding: 2rem;
+            border-radius: 10px;
+            border-left: 4px solid var(--gold);
+        }
+        
+        .highlight-card h4 {
+            color: var(--navy);
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .highlight-card p {
+            color: #666;
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+        
+        .figen-expertise {
+            background: var(--navy);
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+        
+        .figen-expertise h4 {
+            color: var(--gold);
+            font-size: 1.5rem;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .expertise-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+        
+        .expertise-item {
+            color: var(--white);
+            padding: 1rem;
+            text-align: center;
+            background: rgba(255,255,255,0.1);
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        
+        .figen-footer {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 2px solid var(--light-gray);
+        }
+        
+        .figen-footer p {
+            color: var(--navy);
+            font-size: 1.1rem;
+            font-style: italic;
+            line-height: 1.8;
+        }
+        
         /* Contact Section */
         .contact {
             padding: 80px 5%;
@@ -305,6 +419,18 @@
             .services-grid {
                 grid-template-columns: 1fr;
             }
+            
+            .figen-highlights {
+                grid-template-columns: 1fr;
+            }
+            
+            .expertise-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .figen-content {
+                padding: 1.5rem;
+            }
         }
     </style>
 </head>
@@ -320,6 +446,7 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#figen">Our Partner</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -382,6 +509,71 @@
                 <p>✓ Market Entry Strategies</p>
                 <p>✓ Investment Advisory</p>
                 <p>✓ Cross-Border Partnerships</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Figen Section -->
+    <section id="figen" class="figen">
+        <div class="figen-container">
+            <h2 class="section-title">Meet Our Partner</h2>
+            <div class="figen-content">
+                <div class="figen-intro">
+                    <h3>Figen Kocaman</h3>
+                    <p class="figen-title">Partner & Managing Director</p>
+                    <p class="figen-description">
+                        A highly accomplished consultant and business leader with extensive experience spanning strategy, operations, finance, and mergers & acquisitions across the Gulf Cooperation Council (GCC), Turkey, United Kingdom, and United States. Figen brings a unique blend of Big Four advisory experience, international investment expertise, and deep regional market knowledge.
+                    </p>
+                </div>
+                
+                <div class="figen-highlights">
+                    <div class="highlight-card">
+                        <h4>🎓 Education</h4>
+                        <p><strong>Executive MBA</strong> - Bogazici University</p>
+                        <p><strong>MA Economics</strong> - American University in Cairo</p>
+                        <p><strong>BA Political Science</strong> - Bogazici University</p>
+                    </div>
+                    
+                    <div class="highlight-card">
+                        <h4>💼 Professional Background</h4>
+                        <p>• PricewaterhouseCoopers (PwC) - Auditor</p>
+                        <p>• Deloitte Touche Tohmatsu - Assistant Auditor</p>
+                        <p>• Alpari ME DMCC - Head of Turkish Sales Desk</p>
+                        <p>• Altınbaş Holding - General Manager & Head of Finance</p>
+                    </div>
+                    
+                    <div class="highlight-card">
+                        <h4>🏆 Key Achievements</h4>
+                        <p>• Advised on $396M M&A transaction for major Turkish retailer</p>
+                        <p>• Exclusive advisor for SEDCO Holding's acquisition of 50% stake in Mektebim</p>
+                        <p>• Strategic advisor to Binzagr Group for KSA market expansion</p>
+                        <p>• Board member of leading bakery factory and retail chain</p>
+                    </div>
+                    
+                    <div class="highlight-card">
+                        <h4>📜 Certifications & Licenses</h4>
+                        <p>• Capital Market Activities Level 3 License</p>
+                        <p>• Derivative Instruments License</p>
+                        <p>• Corporate Governance Rating License</p>
+                        <p>• Real Estate Appraisal License</p>
+                    </div>
+                </div>
+                
+                <div class="figen-expertise">
+                    <h4>Core Expertise</h4>
+                    <div class="expertise-grid">
+                        <div class="expertise-item">✓ M&A Advisory & Execution</div>
+                        <div class="expertise-item">✓ Strategic Financial Consulting</div>
+                        <div class="expertise-item">✓ Operations Management</div>
+                        <div class="expertise-item">✓ Global Marketing Strategy</div>
+                        <div class="expertise-item">✓ Cross-Border Partnerships</div>
+                        <div class="expertise-item">✓ Investment Relations</div>
+                    </div>
+                </div>
+                
+                <div class="figen-footer">
+                    <p><em>"Well networked across the Kingdom of Saudi Arabia, United Arab Emirates, and the broader GCC region, with proven expertise in bridging international opportunities with Middle Eastern markets."</em></p>
+                </div>
             </div>
         </div>
     </section>
